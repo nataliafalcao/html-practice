@@ -1,0 +1,73 @@
+/* reset */
+html, body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+} 
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* variables */
+:root {
+	--spacing: 33px;
+}
+
+.container {
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-;
+}
+
+.child-1 {
+	width: 100%;
+	height: 20%;
+	margin-bottom: var(--spacing);
+	background-color: #baffc9;
+}
+
+.child-2 {
+	height: 80%;
+}
+
+.child-3 {
+	width: 100%;
+}
+
+.yellow-red-container {
+	height: 70%; 
+}
+
+.yellow-container {
+	background-color: #ffffba; 
+	width: 50%;
+}
+
+.red-container {
+	background-color: #ffb3ba;
+	width: 50%;
+}
+
+.w-box {
+	width: 50%;
+	background: white;
+}
+
+.orange-container {
+	background-color: #ffdfba;
+	height: 30%;
+}
+
+.blue-container {
+	background-color: #bae1ff;
+}
+
+/* helper classes */
+
+.d-flex { display: flex; }
+.wrap {	flex-wrap: wrap; }
+
+
