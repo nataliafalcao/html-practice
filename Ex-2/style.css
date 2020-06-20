@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .yellow-red-container {
 	height: 66%;
+	margin-bottom: var(--spacing);
 }
 
 .red-container, .yellow-container {
