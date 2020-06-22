@@ -23,7 +23,6 @@ body {
 	font-size: 4em;
 }
 
-
 header, nav, footer, .word-orange {
 	margin: 0 var(--spacin2) var(--spacin1) var(--spacin2);
 	border-radius: var(--round);
@@ -58,10 +57,6 @@ p.word-green {
 
 .word-orange {
 	height: 55%;
-}
-
-.aricles-sec, .lateral-sec {
-
 }
 
 .articles-sec {
