@@ -19,15 +19,10 @@ h1, h2, h3, h4, h5, h6, p {
 	--round: 4px;
 }
 
-header {
-	background-color: #a60000;
-	height: 22%;
+body {
+	font-size: 4em;
 }
 
-nav {
-	background-color: #a60068;
-	height: 11%;
-}
 
 header, nav, footer, .word-orange {
 	margin: 0 var(--spacin2) var(--spacin1) var(--spacin2);
@@ -36,7 +31,17 @@ header, nav, footer, .word-orange {
 
 p, header nav footer {
 	padding-left: var(--spacin2);
-	padding-top: var(--round);
+}
+
+header {
+	background-color: #a60000;
+	height: 22%;
+	margin-top: 5px;
+}
+
+nav {
+	background-color: #a60068;
+	height: 11%;
 }
 
 p.word-yellow {
@@ -72,6 +77,10 @@ article {
 	background-color: #9fee00;
 }
 
+.main-article, .smaller-article, section, aside {
+	border-radius: var(--round);
+}
+
 .main-article {
 	height: 60%;
 	margin-bottom: var(--spacing3);
@@ -83,11 +92,13 @@ article {
 
 section {
 	background-color: #009899;
-	width: %;
+	height: 66%;
+	margin-bottom: var(--spacing3);
 }
 
 aside {
 	background-color: #004098;
+	height: 34%;
 }
 
 footer {
