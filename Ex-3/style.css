@@ -14,9 +14,9 @@ h1, h2, h3, h4, h5, h6, p {
 /* variables */
 :root {
 	--round: 4px;
-	--spacing3: 11px;
-	--spacin1: 22px;
-	--spacin2: 44px;
+	--spacing-sm: 11px;
+	--spacing: 22px;
+	--spacing-l: 44px;
 }
 /*use ascendent number, should use (name)-sm, (name)-l.. */
 
@@ -24,13 +24,13 @@ body {
 	font-size: 4em;
 }
 
-header, nav, footer, .word-orange {
-	margin: 0 var(--spacin2) var(--spacin1) var(--spacin2);
+header, nav, footer, .main-info {
+	margin: 0 var(--spacing-l) var(--spacing) var(--spacing-l);
 	border-radius: var(--round);
 } 
 
 p, header nav footer {
-	padding-left: var(--spacin2);
+	padding-left: var(--spacing-l);
 }
 
 header {
@@ -44,25 +44,25 @@ nav {
 	height: 11%;
 }
 
-p.word-yellow {
+p.text-yellow {
 	color: #f9d715;
 }
 
-div.word-orange {
+.text-orange {
 	color: #d28c00;
 }
 
-p.word-green {
+p.text-green {
 	color: #b4e50d;
 }
 
-.word-orange {
+.main-info {
 	height: 55%;
 }
 
 .articles-sec {
 	width: 66%;
-	margin-right: var(--spacin1);
+	margin-right: var(--spacing);
 }
 
 .lateral-sec {
@@ -79,7 +79,7 @@ article {
 
 .main-article {
 	height: 60%;
-	margin-bottom: var(--spacing3);
+	margin-bottom: var(--spacing-sm);
 }
 
 .smaller-article {
@@ -89,7 +89,7 @@ article {
 section {
 	background-color: #009899;
 	height: 66%;
-	margin-bottom: var(--spacing3);
+	margin-bottom: var(--spacing-sm);
 }
 
 aside {
