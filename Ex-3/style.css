@@ -13,7 +13,70 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* variables */
 :root {
-	--example: 11px;
+	--spacin1: 22px;
+	--spacin2: 44px;
+	--round: 4px;
+
+}
+
+header {
+	background-color: #a60000;
+	height: 22%;
+	
+}
+
+nav {
+	background-color: #a60068;
+	height: 11%;
+}
+
+header, nav, footer, .word-orange {
+	margin: 0 var(--spacin2) var(--spacin1) var(--spacin2);
+	border-radius: var(--round);
+} 
+
+p, header nav footer {
+	padding-left: var(--spacin2);
+	padding-top: var(--round);
+}
+
+.word-orange {
+	height: 55%;
+}
+
+article {
+	background-color: #9fee00;
+}
+
+.articles {
+	width: 66%;
+
+}
+
+section {
+	background-color: #009899;
+	width: %;
+}
+
+aside {
+	background-color: #004098;
+}
+
+footer {
+	background-color: #319904;
+	height: 11%;
+}
+
+p.word-yellow {
+	color: #f9d715;
+}
+
+div.word-orange {
+	color: #d28c00;
+}
+
+p.word-green {
+	color: #b4e50d;
 }
 
 /* helper classes */
