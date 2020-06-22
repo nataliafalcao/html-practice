@@ -13,11 +13,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* variables */
 :root {
+	--round: 4px;
+	--spacing3: 11px;
 	--spacin1: 22px;
 	--spacin2: 44px;
-	--spacing3: 11px;
-	--round: 4px;
 }
+/*use ascendent number, should use (name)-sm, (name)-l.. */
 
 body {
 	font-size: 4em;
